@@ -17,3 +17,5 @@
 $ docker-compose up -d
 $ docker attach attendance_app-web-1
 ```
+
+# gemfile変更後の docker compose build を忘れない！
