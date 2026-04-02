@@ -19,3 +19,5 @@ $ docker attach attendance_app-web-1
 ```
 
 # gemfile変更後の docker compose build を忘れない！
+
+# docker-compose run --rm web bundle install も必要
