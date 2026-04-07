@@ -19,3 +19,14 @@ $ docker attach attendance_app-web-1
 ```
 
 # gemfile変更後の docker-compose run --rm web bundle install も必要
+
+## 権限がなく実行できないときは　docker compose build
+
+### 9) rails c やrails db コマンド実行時
+
+```bash
+$ docker compose run --rm web bin/rails c
+$ docker compose run --rm web bin/rails db:(各種コマンド)
+```
+
+# docker compose run --rm web bin/ を前に書く
