@@ -5,7 +5,6 @@ ruby "3.0.6"
 gem "rails", "~> 7.1.0"
 gem 'bcrypt'
 gem 'faker'
-gem 'bootstrap-sass'
 gem "sprockets-rails"
 gem "mysql2"
 gem "puma", ">= 5.0"
@@ -13,9 +12,10 @@ gem "importmap-rails"
 gem "turbo-rails"
 gem "stimulus-rails"
 gem "jbuilder"
-gem "bootsnap", require: false
 gem "tzinfo-data", platforms: %i[ mswin mswin64 mingw x64_mingw jruby ]
+gem "bootsnap", require: false
 gem "sassc-rails"
+gem 'bootstrap-sass'
 gem 'jquery-rails'
 gem 'will_paginate', '~> 3.3'                                                                                                                          
 gem 'bootstrap-will_paginate', '1.0.0'  
