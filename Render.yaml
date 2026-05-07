@@ -26,7 +26,7 @@ services:
         value: production
 
       - key: RAILS_MASTER_KEY
-        generateValue: true
+        sync: false
 
       - key: SECRET_KEY_BASE
         generateValue: true
